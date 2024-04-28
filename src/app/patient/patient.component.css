@@ -1,0 +1,187 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensure the body takes up the full viewport height */
+    margin: 0; /* Remove default margin */
+}
+.header {
+       background-color: rgb(0, 183, 255);
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+.container {
+    display: flex;
+}
+.radio-button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the start */
+    margin-left: 38vh;
+    margin-top: 38vh; 
+    flex: 1;
+}
+.profile-details-container{
+    margin-top: 12vh; 
+}
+.prescription-details-container {
+
+    margin-top: 30vh;
+}
+.profile-details-container,
+.prescription-details-container {
+    margin-left: 20px; 
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+  
+    margin-right: 20vh;
+    flex: 1;
+}
+  
+  .radio-button {
+    /* display: flex;
+    align-items: center; */
+    cursor: pointer;
+    margin-bottom: 24px;
+  }
+  
+  
+  .radio-button__input {
+    /* position: absolute; */
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .radio-button__label {
+    display: inline-block;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    position: relative;
+    font-size: 15px;
+    color: #010101;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+  }
+  
+  .radio-button__custom {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #555;
+    transition: all 0.3s ease;
+  }
+  
+  .radio-button__input:checked + .radio-button__label .radio-button__custom {
+    background-color: #4c8bf5;
+    border-color: transparent;
+    transform: scale(0.8);
+    box-shadow: 0 0 20px #4c8bf580;
+  }
+  
+  .radio-button__input:checked + .radio-button__label {
+    color: #4c8bf5;
+  }
+  
+  .radio-button__label:hover .radio-button__custom {
+    transform: scale(1.2);
+    border-color: #4c8bf5;
+    box-shadow: 0 0 20px #4c8bf580;
+  }
+
+.profile-details {
+    /* background-color: #f0f0f0; */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.profile-detail {
+    
+    margin-bottom: 10px;
+}
+
+.profile-detail label {
+    font-weight: bold;
+}
+
+.edit-profile-button {
+    background-color: #4c8bf5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-profile-button:hover {
+    background-color: #357ae8;
+}
+
+/* Apply table styles */
+table {
+    border-collapse: collapse; /* Collapse table borders */
+    width: 100%; /* Set table width to 100% */
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Apply border to table cells and header */
+table th, table td {
+    border: 3px solid #dddddd; /* Set border for table cells */
+    padding: 8px; /* Add padding */
+    text-align: left; /* Align text to left */
+}
+
+/* Apply background color to alternating rows */
+table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray background color */
+}
+
+/* Apply hover effect to table rows */
+table tr:hover {
+    background-color: #ddd; /* Dark gray background color on hover */
+}
+
+  
+  
+  
+  
+  
+  
