@@ -5,8 +5,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Ensure the body takes up the full viewport height */
-    margin: 0; /* Remove default margin */
+    height: 100vh;
+    margin: 0; 
 }
 .header {
        background-color: rgb(0, 183, 255);
@@ -42,7 +42,7 @@ body {
 .radio-button-container {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Align items to the start */
+    align-items: flex-start; 
     margin-left: 38vh;
     margin-top: 38vh; 
     flex: 1;
@@ -62,8 +62,8 @@ body {
     border-radius: 5px;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Center vertically */
-    align-items: center; /* Center horizontally */
+    justify-content: center; 
+    align-items: center; 
   
     margin-right: 20vh;
     flex: 1;
@@ -153,30 +153,28 @@ body {
     background-color: #357ae8;
 }
 
-/* Apply table styles */
 table {
-    border-collapse: collapse; /* Collapse table borders */
-    width: 100%; /* Set table width to 100% */
+    border-collapse: collapse; 
+    width: 100%;
     background-color: #f0f0f0;
     padding: 20px;
     border-radius: 5px;
 }
 
-/* Apply border to table cells and header */
 table th, table td {
-    border: 3px solid #dddddd; /* Set border for table cells */
-    padding: 8px; /* Add padding */
-    text-align: left; /* Align text to left */
+    border: 3px solid #dddddd; 
+    padding: 8px; 
+    text-align: left; 
 }
 
-/* Apply background color to alternating rows */
+
 table tr:nth-child(even) {
-    background-color: #f2f2f2; /* Light gray background color */
+    background-color: #f2f2f2; 
 }
 
-/* Apply hover effect to table rows */
+
 table tr:hover {
-    background-color: #ddd; /* Dark gray background color on hover */
+    background-color: #ddd; 
 }
 
   

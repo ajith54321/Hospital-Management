@@ -11,7 +11,7 @@ import { Router } from '@angular/router';
 export class HomeComponent {
   constructor(private router: Router) { }
 
-  selectedTabIndex: number = 0; // Default selected tab index
+  selectedTabIndex: number = 0; 
 
   getMessage(): string {
     switch (this.selectedTabIndex) {
